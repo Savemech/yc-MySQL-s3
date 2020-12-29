@@ -16,3 +16,12 @@ ii  mysql-server-core-8.0                8.0.22-0ubuntu0.20.04.3           amd64
 - s3 cp does not able to handle while piping files large than 5GB
 - Better use WAL-G for production environments
 - There is no cron/scheduling included, you may use it as sidecar for your MySQL in K8s
+
+
+
+
+init database at first time:
+```
+$ cd test-db
+$ mysql -t <employees.sql
+```
