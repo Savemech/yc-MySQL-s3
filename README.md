@@ -20,7 +20,7 @@ ii  mysql-server-core-8.0                8.0.22-0ubuntu0.20.04.3           amd64
 
 
 
-init database at first time:
+# init database at first time:
 ```
 $ cd test-db
 $ mysql -t <employees.sql
